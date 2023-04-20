@@ -1,0 +1,36 @@
+#header {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#profilpicture {
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+	background-image: radial-gradient(
+			50% 50% at 50% 50%,
+			rgba(0, 0, 0, 0) 92.19%,
+			rgba(0, 0, 0, 0.35) 100%
+		),
+		url('../../assets/profil.png');
+	background-color: #fafffd;
+	background-size: 100%;
+	box-sizing: border-box;
+	box-shadow: 11px 7px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+#name {
+	margin: 50px 0 0 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #00171f;
+	font-weight: 600;
+	font-size: 128px;
+	line-height: 135px;
+	letter-spacing: 0.1em;
+	text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff,
+		-1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}

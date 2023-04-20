@@ -1,10 +1,10 @@
 import React from 'react';
-import profilPicture from '../../assets/profile.png';
+import './Header.css';
 
 function Header() {
 	return (
-		<header className="header">
-			<img src={profilPicture} id="profilpicture"></img>
+		<header id="header">
+			<div id="profilpicture"></div>
 			<p id="name">
 				chevereau
 				<br />
