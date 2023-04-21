@@ -1,0 +1,11 @@
+.carrousel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.carrouselimg {
+	width: 730px;
+	height: 460px;
+	object-fit: cover;
+}
