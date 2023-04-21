@@ -1,3 +1,9 @@
+.legende {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 70px;
+}
+
 .legendtitle {
 	text-transform: uppercase;
 	color: white;
@@ -12,5 +18,4 @@
 	line-height: 28px;
 	text-align: justify;
 	color: white;
-	width: 967px;
 }

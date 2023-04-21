@@ -58,4 +58,29 @@ export const legendeContent = [
 			</p>
 		</>,
 	],
+	[
+		<span className={titleClass} key={'span1'}>
+			lorem ipsum
+		</span>,
+		<>
+			<p className={contentClass} key={'p1.0'}>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer orci
+				erat, imperdiet non varius at, scelerisque ut ligula. Pellentesque
+				molestie eros at luctus ultrices. Suspendisse at sapien ac eros
+				scelerisque vehicula vitae pharetra felis.
+			</p>
+			<p className={contentClass} key={'p1.1'}>
+				Morbi sodales ipsum eget lobortis pulvinar. Curabitur lobortis est nunc,
+				a fermentum neque fermentum a. Mauris augue arcu, pharetra scelerisque
+				scelerisque at, auctor eget tellus. Vestibulum felis urna, ornare non
+				massa dictum, aliquet accumsan ex. Maecenas dignissim odio a tempus
+				varius.
+			</p>
+			<p className={contentClass} key={'p1.2'}>
+				Nunc venenatis, felis ut auctor gravida, ante dui vehicula lorem, et
+				semper purus nulla et purus. Mauris eleifend orci at nulla pretium
+				tincidunt. Ut aliquet.
+			</p>
+		</>,
+	],
 ];

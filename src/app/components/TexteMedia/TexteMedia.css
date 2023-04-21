@@ -1,0 +1,21 @@
+.textemedia,
+.reverttextemedia {
+	background-color: #003459;
+	display: flex;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+.textemedia {
+	flex-direction: row;
+}
+
+.reverttextemedia {
+	flex-direction: row-reverse;
+}
+
+.textemedia:last-child,
+.reverttextemedia:last-child {
+	margin-bottom: 0;
+}
