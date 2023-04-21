@@ -1,0 +1,16 @@
+.point,
+.selectedpoint {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.point {
+	background: rgba(217, 217, 217, 0.5);
+}
+
+.selectedpoint {
+	background: #d9d9d9;
+}
