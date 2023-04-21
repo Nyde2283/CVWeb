@@ -2,10 +2,19 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin: 40px;
+}
+
+.reverttextemedia .carrousel {
+	margin-left: 0;
+}
+.textemedia .carrousel {
+	margin-right: 0;
 }
 
 .carrouselimg {
 	width: 730px;
 	height: 460px;
 	object-fit: cover;
+	background-color: black;
 }

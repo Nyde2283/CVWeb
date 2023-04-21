@@ -9,7 +9,7 @@ function Legende({ content }: LegendeProps) {
 	const title = content[0];
 	const description = content[1];
 	return (
-		<div className="Legende">
+		<div className="legende">
 			{title}
 			{description}
 		</div>
